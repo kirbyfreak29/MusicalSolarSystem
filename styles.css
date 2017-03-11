@@ -1,0 +1,114 @@
+body {
+    background-color:#8c8;
+}
+
+#mainWindow {
+    background-color:#ddd;
+    width:700pt;
+    height:450pt;
+    margin-top:18pt;
+    margin-left:18pt;
+    border: solid #ddd 2px; 
+    -webkit-box-shadow: 5pt 5pt 10pt #666;
+    -moz-box-shadow: 5pt 5pt 10pt #666;
+}
+
+.titleBar {
+    text-align:center;
+    font-family:arial;
+    font-size:12pt;
+    background-color:#333399;
+    color:white;
+    margin-top:0;
+    margin-bottom:0pt;
+    padding:2pt;
+}
+
+/* the drawing canvas */
+#canvas1 { 
+    position:absolute;
+    left:174pt;
+    top:50pt;
+    background-color:white;
+    -webkit-box-shadow: inset 2px 2px 2px #666;
+    -moz-box-shadow: inset 2px 2px 2px #666;
+}
+
+/* control box */ #controls {
+    position:absolute; left:54px; top:66px; width:140px; height:526px;
+    background-color:white; padding:6pt; -webkit-box-shadow: inset 2px
+    2px 2px #666; -moz-box-shadow: inset 2px 2px 2px #666;
+}
+
+#sliderdiv {
+    margin-top:0.6in;
+    margin-left:.2in;
+    margin-right:.2in;
+}
+
+#slidertitle {
+    margin-top:0pt;
+    margin-bottom:24pt;
+    font-weight:bold;
+    text-align:center;
+    font-size:120%;
+}
+
+#slider1 {
+    position:relative;
+    width:105px;
+    top:-16px;
+    left:-4pt;
+}
+
+#pointcountpar {
+    position:relative;
+    font-size:90%;
+    top:-24pt;
+    text-align:center;
+}
+
+#timecountpar {
+    position:relative;
+    font-size:90%;
+    top:-24pt;
+    text-align:center;
+}
+
+#gobutton {
+    font-size:130%;
+    margin-left:50px;
+    margin-top:24pt;
+}
+
+#stopbutton {
+    font-size:130%;
+    margin-left:40px;
+    margin-top:12pt;
+}
+
+#stepbutton {
+    font-size:130%;
+    margin-left:40px;
+    margin-top:12pt;
+}
+
+/* box for debugging output */
+#messageWindow {
+    border: solid black 1px;
+    margin-left:20pt;
+    margin-top: 22pt;
+    width: 700pt;
+    height: 100pt;
+    background-color:#FF9;
+    overflow: auto;
+}
+
+#messages {
+    padding:4pt;
+    font-size:75%;
+    font-family:courier;
+    overflow: auto;
+}
+
+
