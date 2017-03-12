@@ -488,10 +488,6 @@ music.step = function() {
 }  
   
 music.loadImages = function() {
-  sun = new Image();     sun.src = "sun.png";
-  moon = new Image();    moon.src = "moon.png";
-  earth = new Image();   earth.src = "earth.png";
-  stars = new Image();   stars.src = "stars.jpg";
 
   whole = new Image();  whole.src = "images/whole.png"
   half = new Image();  half.src = "images/half.png"
