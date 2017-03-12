@@ -263,7 +263,7 @@ music.init = function () {
 music.prepareInstruments = function() {
   
     MIDI.loadPlugin({
-    soundfontUrl: "http://gleitz.github.io/midi-js-soundfonts/FluidR3_GM/",
+    soundfontUrl: "https://gleitz.github.io/midi-js-soundfonts/FluidR3_GM/",
     instruments: instrumentNames,
     onprogress: function(state, progress) {
       console.log(state, progress);
@@ -488,10 +488,6 @@ music.step = function() {
 }  
   
 music.loadImages = function() {
-  sun = new Image();     sun.src = "sun.png";
-  moon = new Image();    moon.src = "moon.png";
-  earth = new Image();   earth.src = "earth.png";
-  stars = new Image();   stars.src = "stars.jpg";
 
   whole = new Image();  whole.src = "images/whole.png"
   half = new Image();  half.src = "images/half.png"

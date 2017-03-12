@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Musical Solar System</title>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+  <div id="mainWindow">
+    <h3 class="titleBar">Musical Solar System</h3>
+
+    <div id="controls">
+      <div id="sliderdiv">
+        <p id="slidertitle">Spacing</p>
+        <input id="slider1" type="range" min="-10" max="10" value="0" />
+	<p id="pointcountpar">Distance <span id="pointcount">0</span></p>
+	<p id="timecountpar">Time: <span id="timecount">0</span></p>
+      </div>
+      <button id="gobutton" type="submit" >Go</button>
+      <button id="stopbutton" type="submit" >Stop</button>
+      <button id="stepbutton" type="submit" >Step</button>
+    </div>
+
+    <canvas id="canvas1" width="720" height="540">
+      <p>Your browser doesn't support the HTML5 canvas element.</p>
+    </canvas>
+  </div>
+
+  <p>
+  Original song <a href="https://soundcloud.com/kirby_freak/glyc">Glyc</a> by Tyler Luce
+  </p>
+
+  <!-- <div id="messageWindow">
+    <h3 class="titleBar">Messages</h3>
+    <div id="messages"></div>
+  </div> -->
+
+  <!-- javascript, loaded at the end to make the page appear faster -->
+  <script type="text/javascript" src="https://cs.calvin.edu/curriculum/cs/352/files/js/jquery-1.4.4.min.js"></script>
+  <script type="text/javascript" src="https://cs.calvin.edu/curriculum/cs/352/files/js/sylvester.js"></script>
+
+  <script src="./js/Base64.js" type="text/javascript"></script>
+  <script src="./js/Base64binary.js" type="text/javascript"></script>
+  <script src="./js/WebAudioAPI.js" type="text/javascript"></script>
+  <!-- midi.js package -->
+  <script src="./js/audioDetect.js" type="text/javascript"></script>
+  <script src="./js/gm.js" type="text/javascript"></script>
+  <script src="./js/loader.js" type="text/javascript"></script>
+  <script src="./js/plugin.audiotag.js" type="text/javascript"></script>
+  <script src="./js/plugin.webaudio.js" type="text/javascript"></script>
+  <script src="./js/plugin.webmidi.js" type="text/javascript"></script>
+  <!-- utils -->
+  <script src="./js/dom_request_xhr.js" type="text/javascript"></script>
+  <script src="./js/dom_request_script.js" type="text/javascript"></script>
+
+  <script type="text/javascript" src="music.js"></script>
+</body>
+</html>
