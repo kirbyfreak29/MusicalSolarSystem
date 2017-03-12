@@ -477,6 +477,7 @@ music.animate = function() {
 }
 
 music.go = function() {
+  clearInterval(intervalID);
   intervalID =  setInterval(music.animate, millisecondsPerStep); // in milliseconds
 
   var delay = 0; // play one note every quarter second
