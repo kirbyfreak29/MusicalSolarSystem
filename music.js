@@ -263,7 +263,7 @@ music.init = function () {
 music.prepareInstruments = function() {
   
     MIDI.loadPlugin({
-    soundfontUrl: "http://gleitz.github.io/midi-js-soundfonts/FluidR3_GM/",
+    soundfontUrl: "https://gleitz.github.io/midi-js-soundfonts/FluidR3_GM/",
     instruments: instrumentNames,
     onprogress: function(state, progress) {
       console.log(state, progress);
