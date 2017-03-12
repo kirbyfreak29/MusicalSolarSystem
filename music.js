@@ -478,6 +478,13 @@ music.animate = function() {
 
 music.go = function() {
   intervalID =  setInterval(music.animate, millisecondsPerStep); // in milliseconds
+
+  var delay = 0; // play one note every quarter second
+  var note = 50; // the MIDI note
+  var velocity = 0; // how hard the note hits
+
+  midi.noteOn(0, note, velocity, 0);
+  midi.noteOff(0, note, .1);
 }
   
 music.stop = function() { clearInterval(intervalID); }
