@@ -244,6 +244,11 @@ $(document).ready(function () { music.init(); });
 
 music.init = function () { 
 
+  // Possible info on doing this here: https://codepen.io/KryptoniteDove/post/load-json-file-locally-using-pure-javascript
+  
+  // var songJSON = $.getJSON("glyc.json");
+  // console.log(songJSON)
+
   music.prepareInstruments(); 
   // music.prepareSong();
 

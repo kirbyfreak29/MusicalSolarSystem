@@ -1,0 +1,464 @@
+{
+	"name": "Glyc",
+	"bpm": 115,
+	"beatsPerMeasure": 4,
+	"measuresPerLoop": 8,
+	"instruments": [
+		{
+			"name": "woodblock",
+			"picture": "woodblock",
+			"measures": [
+				{
+					"notes": [
+						{
+							"pitches": ["D5"],
+							"length": 2
+						},
+						{
+							"pitches": ["E5"],
+							"length": 1
+						},
+						{
+							"pitches": ["D5"],
+							"length": 2
+						},
+						{
+							"pitches": ["D5"],
+							"length": 1
+						},
+						{
+							"pitches": ["E5"],
+							"length": 1
+						},
+						{
+							"pitches": ["D5"],
+							"length": 1
+						},
+					],
+					"extendToFill": true
+				},
+			],
+			"extendToFill": true
+		},
+
+		{
+			"name": "acoustic_bass",
+			"picture": "acoustic_bass",
+			"measures": [
+				{
+					"notes": [
+						{
+							"pitches": ["D3"],
+							"length": 3
+						},
+						{
+							"pitches": ["D3"],
+							"length": 5
+						},
+					],
+					"extendToFill": true
+				},
+				{
+					"notes": [
+						{
+							"pitches": ["Db3"],
+							"length": 3
+						},
+						{
+							"pitches": ["Db3"],
+							"length": 5
+						},
+					],
+					"extendToFill": true
+				},
+				{
+					"notes": [
+						{
+							"pitches": ["C3"],
+							"length": 3
+						},
+						{
+							"pitches": ["C3"],
+							"length": 5
+						},
+						{
+							"pitches": ["C3"],
+							"length": 3
+						},
+						{
+							"pitches": ["Db3"],
+							"length": 3
+						},
+						{
+							"pitches": ["C3"],
+							"length": 2
+						},
+					],
+					"extendToFill": false
+				},
+				{
+					"notes": [
+						{
+							"pitches": ["B2"],
+							"length": 3
+						},
+						{
+							"pitches": ["B2"],
+							"length": 5
+						},
+					],
+					"extendToFill": true
+				},
+				{
+					"notes": [
+						{
+							"pitches": ["Bb2"],
+							"length": 3
+						},
+						{
+							"pitches": ["Bb2"],
+							"length": 5
+						},
+					],
+					"extendToFill": true
+				},
+				{
+					"notes": [
+						{
+							"pitches": ["Ab2"],
+							"length": 3
+						},
+						{
+							"pitches": ["Ab2"],
+							"length": 5
+						},
+						{
+							"pitches": ["Ab2"],
+							"length": 3
+						},
+						{
+							"pitches": ["Bb2"],
+							"length": 3
+						},
+						{
+							"pitches": ["Ab2"],
+							"length": 2
+						},
+					],
+					"extendToFill": false
+				},
+				{
+					"notes": [
+						{
+							"pitches": ["Gb2"],
+							"length": 3
+						},
+						{
+							"pitches": ["Gb2"],
+							"length": 5
+						},
+						{
+							"pitches": ["Gb2"],
+							"length": 3
+						},
+						{
+							"pitches": ["Gb2"],
+							"length": 3
+						},
+						{
+							"pitches": ["B2"],
+							"length": 2
+						},
+					],
+					"extendToFill": false
+				},
+				{
+					"notes": [
+						{
+							"pitches": ["C3"],
+							"length": 3
+						},
+						{
+							"pitches": ["C3"],
+							"length": 5
+						},
+					],
+					"extendToFill": true
+				},
+			],
+			"extendToFill": false
+		},
+
+		{
+			"name": "music_box",
+			"picture": "music_box",
+			"measures": [
+				{
+					"notes": [
+						{
+							"pitches": ["D5"],
+							"length": 3
+						},
+						{
+							"pitches": ["F5", "A5"],
+							"length": 7
+						},
+						{
+							"pitches": ["A5"],
+							"length": 1
+						},
+						{
+							"pitches": ["Bb5"],
+							"length": 1
+						},
+						{
+							"pitches": ["A5"],
+							"length": 2
+						},
+						{
+							"pitches": ["G5"],
+							"length": 2
+						},
+					],
+					"extendToFill": false
+				},
+				{
+					"notes": [
+						{
+							"pitches": ["Db5"],
+							"length": 3
+						},
+						{
+							"pitches": ["E5", "G5"],
+							"length": 13
+						},
+					],
+					"extendToFill": false
+				},
+				{
+					"notes": [
+						{
+							"pitches": ["C5"],
+							"length": 3
+						},
+						{
+							"pitches": ["E5", "G5"],
+							"length": 7
+						},
+						{
+							"pitches": ["G5"],
+							"length": 1
+						},
+						{
+							"pitches": ["Ab5"],
+							"length": 1
+						},
+						{
+							"pitches": ["G5"],
+							"length": 2
+						},
+						{
+							"pitches": ["F5"],
+							"length": 2
+						},
+					],
+					"extendToFill": false
+				},
+				{
+					"notes": [
+						{
+							"pitches": ["B5"],
+							"length": 3
+						},
+						{
+							"pitches": ["D5", "F5"],
+							"length": 13
+						},
+					],
+					"extendToFill": false
+				},
+				{
+					"notes": [
+						{
+							"pitches": ["Bb4"],
+							"length": 3
+						},
+						{
+							"pitches": ["D5", "F5"],
+							"length": 7
+						},
+						{
+							"pitches": ["F5"],
+							"length": 1
+						},
+						{
+							"pitches": ["Gb5"],
+							"length": 1
+						},
+						{
+							"pitches": ["F5"],
+							"length": 2
+						},
+						{
+							"pitches": ["Eb5"],
+							"length": 2
+						},
+					],
+					"extendToFill": false
+				},
+				{
+					"notes": [
+						{
+							"pitches": ["Ab4"],
+							"length": 3
+						},
+						{
+							"pitches": ["C5", "Eb5"],
+							"length": 7
+						},
+						{
+							"pitches": ["Eb5"],
+							"length": 1
+						},
+						{
+							"pitches": ["F5"],
+							"length": 1
+						},
+						{
+							"pitches": ["Eb5"],
+							"length": 2
+						},
+						{
+							"pitches": ["Db5"],
+							"length": 2
+						},
+					],
+					"extendToFill": false
+				},
+				{
+					"notes": [
+						{
+							"pitches": ["Gb4"],
+							"length": 3
+						},
+						{
+							"pitches": ["Bb4", "Db5"],
+							"length": 7
+						},
+						{
+							"pitches": ["Db5"],
+							"length": 1
+						},
+						{
+							"pitches": ["Eb5"],
+							"length": 1
+						},
+						{
+							"pitches": ["Db5"],
+							"length": 2
+						},
+						{
+							"pitches": ["B4"],
+							"length": 2
+						},
+					],
+					"extendToFill": false
+				},
+				{
+					"notes": [
+						{
+							"pitches": ["C5"],
+							"length": 8
+						},
+						{
+							"pitches": ["F5"],
+							"length": 8
+						},
+					],
+					"extendToFill": false
+				},
+			],
+			"extendToFill": false
+		},
+
+		{
+			"name": "pad_2_warm",
+			"picture": "pad_2_warm",
+			"measures": [
+				{
+					"notes": [
+						{
+							"pitches": ["D5", "F5", "A5"],
+							"length": 16
+						},
+					],
+					"extendToFill": false
+				},
+				{
+					"notes": [
+						{
+							"pitches": ["Db5", "E5", "G5"],
+							"length": 16
+						},
+					],
+					"extendToFill": false
+				},
+				{
+					"notes": [
+						{
+							"pitches": ["C5", "E5", "G5"],
+							"length": 16
+						},
+					],
+					"extendToFill": false
+				},
+				{
+					"notes": [
+						{
+							"pitches": ["B4", "D5", "F5"],
+							"length": 16
+						},
+					],
+					"extendToFill": false
+				},
+				{
+					"notes": [
+						{
+							"pitches": ["Bb4", "D5", "F5"],
+							"length": 16
+						},
+					],
+					"extendToFill": false
+				},
+				{
+					"notes": [
+						{
+							"pitches": ["Ab4", "C5", "Eb5"],
+							"length": 16
+						},
+					],
+					"extendToFill": false
+				},
+				{
+					"notes": [
+						{
+							"pitches": ["Gb4", "Bb4", "Db5"],
+							"length": 16
+						},
+					],
+					"extendToFill": false
+				},
+				{
+					"notes": [
+						{
+							"pitches": ["F4", "A4", "C5"],
+							"length": 16
+						},
+					],
+					"extendToFill": false
+				},
+			],
+			"extendToFill": false
+		},
+	]
+}
