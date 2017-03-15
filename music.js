@@ -1,8 +1,7 @@
 /*
- * music -- music system simulator -- frames and animation example
  * Created for CS352, Calvin College Computer Science
  *
- * Harry Plantinga -- February 2011
+ * Tyler Luce -- March 2017
  */
 
 var music = { }
