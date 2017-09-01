@@ -484,6 +484,7 @@ music.go = function() {
   clearInterval(intervalID);
   intervalID =  setInterval(music.animate, millisecondsPerStep); // in milliseconds
 
+  // Play silent note to allow sound to play on mobile devices
   var delay = 0; // play one note every quarter second
   var note = 50; // the MIDI note
   var velocity = 0; // how hard the note hits
